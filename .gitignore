@@ -1,0 +1,39 @@
+# Datos locales o generados
+/data/
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+.conda/
+
+# Variables de entorno y secretos
+.env
+.env.*
+
+# Caché y archivos compilados de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Herramientas de calidad y pruebas
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Construcción y distribución
+build/
+dist/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editores
+.vscode/
+.idea/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
