@@ -21,4 +21,4 @@ sus funcionalidades mediante un flujo colaborativo reproducible.
 
 ## Estado
 
-Proyecto en desarrollo.
+La función de visualización de edad está en desarrollo.
