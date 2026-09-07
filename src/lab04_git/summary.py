@@ -4,7 +4,6 @@ from collections.abc import Sequence
 
 import pandas as pd
 
-
 DEFAULT_COLUMNS = ("age", "hba1c")
 
 
