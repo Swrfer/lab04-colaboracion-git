@@ -1,6 +1,6 @@
 # Laboratorio 04 — Colaboración con Git y GitHub
 
-Este proyecto incorpora visualizaciones reproducibles para explorar la distribución de edad.
+Este proyecto incorpora herramientas reproducibles para resumir variables clínicas y visualizar la distribución de edad.
 
 ## Objetivo
 
@@ -19,17 +19,36 @@ sus funcionalidades mediante un flujo colaborativo reproducible.
 
 ## Estado
 
-La función de visualización de edad está en desarrollo.
+Las funciones de resumen clínico y visualización de edad están implementadas y cuentan con pruebas automatizadas.
+
+## Resumen de variables clínicas
+
+La función `summarize_clinical_data()` calcula estadísticas descriptivas para las columnas `age` y `hba1c`.
+
+```python
+import pandas as pd
+
+from lab04_git import summarize_clinical_data
+
+data = pd.DataFrame(
+    {
+        "age": [40, 50, 60],
+        "hba1c": [6.5, 7.0, 7.5],
+    }
+)
+
+summary = summarize_clinical_data(data)
+print(summary)
+```
+
 ## Distribución de edad
 
-La función `plot_age_distribution()` genera un histograma de edad y devuelve
-los ejes de Matplotlib para permitir personalizaciones adicionales.
+La función `plot_age_distribution()` genera un histograma de edad y devuelve los ejes de Matplotlib para permitir personalizaciones adicionales.
 
 ```python
 import pandas as pd
 
 from lab04_git import plot_age_distribution
-
 
 data = pd.DataFrame(
     {
