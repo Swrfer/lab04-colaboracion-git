@@ -1,0 +1,1 @@
+Este archivo demuestra la recuperación de un commit eliminado mediante git reflog.
