@@ -1,8 +1,6 @@
 # Laboratorio 04 — Colaboración con Git y GitHub
 
-Proyecto para practicar un flujo completo de colaboración científica mediante
-issues, ramas, pull requests, revisión de código, integración continua y
-protección de la rama principal.
+Este proyecto incorpora visualizaciones reproducibles para explorar la distribución de edad.
 
 ## Objetivo
 
