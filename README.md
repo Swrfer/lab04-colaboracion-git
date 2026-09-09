@@ -1,5 +1,7 @@
 # Laboratorio 04 — Colaboración con Git y GitHub
+
 [![CI](https://github.com/Swrfer/lab04-colaboracion-git/actions/workflows/ci.yml/badge.svg)](https://github.com/Swrfer/lab04-colaboracion-git/actions/workflows/ci.yml)
+
 Este proyecto incorpora herramientas reproducibles para resumir variables clínicas y visualizar la distribución de edad.
 
 ## Objetivo
