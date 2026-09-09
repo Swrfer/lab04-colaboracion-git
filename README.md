@@ -1,5 +1,7 @@
 # Laboratorio 04 — Colaboración con Git y GitHub
 
+[![CI](https://github.com/Swrfer/lab04-colaboracion-git/actions/workflows/ci.yml/badge.svg)](https://github.com/Swrfer/lab04-colaboracion-git/actions/workflows/ci.yml)
+
 Este proyecto incorpora herramientas reproducibles para resumir variables clínicas y visualizar la distribución de edad.
 
 ## Objetivo
@@ -64,3 +66,14 @@ ax.figure.savefig(
     bbox_inches="tight",
 )
 ```
+## Evidencias del flujo de trabajo
+
+- El proyecto utiliza mensajes descriptivos basados en Conventional Commits.
+- Los datos locales y archivos temporales se excluyen mediante `.gitignore`.
+- Se demostró el uso de `git rm --cached` para retirar datos previamente rastreados.
+- Los issues #1 y #2 se desarrollaron en ramas independientes y se cerraron automáticamente desde sus pull requests.
+- Los pull requests se abrieron inicialmente como borradores y posteriormente se marcaron como listos para revisión.
+- Se provocó y resolvió manualmente un conflicto de integración entre las ramas de funcionalidades.
+- La rama `main` está protegida contra actualizaciones directas.
+- GitHub Actions ejecuta `ruff check` y `pytest` en cada push y pull request.
+- Se recuperó un commit eliminado deliberadamente mediante `git reflog`.
